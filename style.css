@@ -1,0 +1,146 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bgimg-1 {
+    background-image: linear-gradient(#282E34, #5A7B99);
+    min-height: 400px;
+}
+
+.bgimg-2 {
+    background-image: linear-gradient(#5A7B99, #466076);
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: linear-gradient(#466076, #1E2933);
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+span.border-text-1 {
+    background-color: transparent !important;
+    color: #f7f7f7;
+}
+
+h1 {
+    color: #3B7EB9;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 5em !important;
+}
+
+h2 {
+    font-size: larger !important;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+}
+
+h3 {
+    font-size: xx-large !important;
+}
+
+h4 {
+    color: #ddd;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+}
+
+.navbar {
+    background-color: #ddd !important;
+    text-align: right;
+    max-height: 4em;
+    overflow: hidden;
+}
+
+.navbar-brand>img {
+    width: 5em;
+}
+
+.main-heading {
+    color: #111;
+    background-color: #ddd;
+    background-size: cover;
+    text-align: center;
+    text-align: justify;
+    min-height: 40%;
+    overflow: hidden;
+}
+
+.header-text {
+    float: left;
+    width: 55%;
+    padding: 50px 0px 50px 80px;
+}
+
+#headshot {
+    width: 30%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    border: 1px solid #111;
+    box-shadow: 10px 5px #547CA0;
+}
+
+.headline {
+    font-size: 1.25em;
+}
+
+.blue-text {
+    color: #547CA0;
+}
+
+.page-text {
+    position: relative;
+}
+
+.text-block {
+    color: #ddd;
+    background-color: #282E34;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+.resume-points {
+    width: 50%;
+    float: left;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+
+    .bgimg-1,.bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
