@@ -143,8 +143,76 @@ h4 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-
     .bgimg-1,.bgimg-2, .bgimg-3 {
         background-attachment: scroll;
+    }
+
+    .headshot-container {
+        width: 100%;
+    }
+
+    #headshot {
+        display: inline-block;
+        width: 80%;
+        margin: 10px 35px;
+        text-align: center;
+    }
+
+    .navbar {
+        overflow: visible;
+        min-height: 11%;
+    }
+
+    .navbar-brand>img {
+        display: none;
+    }
+
+    .header-text {
+        text-align: left;
+        overflow: visible;
+        float: none;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .resume-points {
+        width: 100%;
+        float: none;
+    }
+
+    .caption {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    span.border {
+        font-size: 0.75em !important;
+        letter-spacing: 1px;
+        display: inline-block;
+    }
+
+    .text-block {
+        text-align: left;
+        padding: 10px 15px;
+    }
+
+    .main-heading {
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 4em !important;
+    }
+
+    h2 {
+        font-size: 1em !important;
+    }
+
+    h3 {
+        font-size: 1.25em !important;
+    }
+
+    h4 {
+        font-size: 1.125em !important;
     }
 }
