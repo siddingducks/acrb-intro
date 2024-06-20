@@ -5,5 +5,4 @@ for (const link of links) {
     "href",
     `mailto:${attrs.part1}@${attrs.part2}.${attrs.part3}?subject=${attrs.subject}`
   );
-  link.textContent = `${attrs.part1}@${attrs.part2}.${attrs.part3}`;
 }
